@@ -1,0 +1,1 @@
+ gcc -g -I ./ -fPIC -shared -o libcomm.so libcomm.cc tcpipv4/libcommtcpipv4.cc tcpipv6/libcommtcpipv6.cc -ldl
